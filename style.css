@@ -174,7 +174,7 @@ h3.notion-heading {
 
 /* --- Adjust the max width of pages --- */
 .super-content.max-width, .notion-header__content.max-width {
-  max-width: 1080px!important;
+  max-width: 1080px !important;
 }
 
 /* --- Remove bottom page padding and adjust page padding for smaller screens --- */
@@ -191,7 +191,7 @@ h3.notion-heading {
 /* --- Remove additional spacing on mobile that is created by column layout on desktop --- */
 @media screen and (max-width:680px) {
   .notion-column {
-    padding: 0px!important;
+    padding: 0px !important;
   }
 }
 
@@ -207,20 +207,25 @@ h3.notion-heading {
 
 /* --- Adjust quote styling so it can be used as a standfirst --- */
 .notion-quote {
-  border-left: 0px!important;
-  padding: 0!important;
-  margin: .5rem 0 1rem!important;
+  border-left: 0px !important;
+  padding: 0 !important;
+  margin: .5rem 0 1rem! important;
 }
 
 /* --- Change handling of full width images --- */
+.notion-image.page-width > div {
+  display: block !important;
+  margin-bottom: 6px !important;
+}
+
 .notion-image.full-width img {
-  object-fit: fill!important;
-  height: auto!important;
+  object-fit: fill !important;
+  height: auto !important;
 }
 
 /* --- Change Image caption alignment --- */
 .notion-image.page-width>figcaption, .notion-image.full-width>figcaption {
-  text-align: center!important;
+  text-align: center !important;
 }
 
 /* --- PROJECTS LISTING --- */
