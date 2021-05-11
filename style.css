@@ -256,6 +256,7 @@ h3.notion-heading {
   border-radius: 0 !important;
   box-shadow: none !important;
   margin-bottom: 44px !important;
+  background: transparent !important;
 }
 @media screen and (min-width: 370px) {
   .notion-collection-card {
