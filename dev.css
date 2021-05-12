@@ -45,7 +45,7 @@ strong {
 
 /* Styling for page names */
 .notion-header__title {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   font-size: 0.75rem !important;
   line-height: 1.25 !important;
   min-height: auto !important;
