@@ -1,5 +1,3 @@
-<style>
-
 html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
@@ -29,7 +27,7 @@ html {
 }
 
 body {
-  font-family: reason-new, sans-serif !important;
+  font-family: reason-new, 'Work Sans', sans-serif !important;
 
   /* Make the text nice and crisp */
   -webkit-font-smoothing: antialiased;
@@ -45,7 +43,7 @@ strong {
 
 /* Styling for page names */
 .notion-header__title {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   font-size: 0.75rem !important;
   line-height: 1.25 !important;
   min-height: auto !important;
@@ -77,7 +75,7 @@ strong {
 
 /* H1 */
 h1.notion-heading, .notion-page__properties .notion-property__text {
-  font-family: psfournier-std, serif !important;
+  font-family: psfournier-std, 'Nanum Myeongjo', serif !important;
   font-weight: 200 !important;
   font-size: 1.875rem !important;
 }
@@ -92,7 +90,7 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
 }
 /* H2 */
 h2.notion-heading {
-  font-family: psfournier-std, serif !important;
+  font-family: psfournier-std, 'Nanum Myeongjo', serif !important;
   font-weight: 200 !important;
   letter-spacing: -0.01em !important;
 }
@@ -307,7 +305,7 @@ h3.notion-heading {
 .notion-collection-card__property .notion-semantic-string {
   display: block !important;
   margin: 0.6em 0 0.4em !important;
-  font-family: psfournier-std, serif !important;
+  font-family: psfournier-std, 'Nanum Myeongjo', serif !important;
   font-weight: 200 !important;
   font-size: 1.5rem !important;
   line-height: 1.3 !important;
@@ -378,7 +376,7 @@ h3.notion-heading {
   margin-top: 0 !important;
 }
 article[id*="projects-"] .notion-page__property > .property-49775679 .notion-pill {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   font-size: 0.75rem !important;
   line-height: 1.25 !important;
   min-height: auto !important;
@@ -536,7 +534,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   margin: 0.5em 0 1em !important;
 }
 .notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
-  font-family: psfournier-std, serif !important;
+  font-family: psfournier-std, 'Nanum Myeongjo', serif !important;
   font-weight: 200 !important;
   font-size: 1.875rem !important;
   letter-spacing: -0.01em !important;
@@ -604,7 +602,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Style of page title can be found with heading styles */
 /* Style body titles */
 [id*="writing-"] h2.notion-heading {
-  font-family: reason-new, sans-serif !important;
+  font-family: reason-new, 'Work Sans', sans-serif !important;
   font-weight: 500 !important;
   letter-spacing: 0.015em !important;
   margin-top: 1.25em !important;
@@ -761,5 +759,3 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 .notion-collection-table__cell .notion-semantic-string {
   white-space: normal !important;
 }
-
-</style>
