@@ -8,6 +8,7 @@ html {
   --color-text-default: #4B5673 !important;
   --color-text-default-light: #4B5673 !important;
   --color-text-gray: #959BA9 !important;
+  --color-border-default: rgba(23,23,24,0.15) !important;
   --collection-card-cover-size-large: 210px !important;
 }
 @media screen and (min-width: 50em) {
@@ -726,7 +727,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
 /* Add dividing border */
 .notion-collection-table__wrapper {
-  border-top: 1px solid rgba(55,53,47,.09) !important;
+  border-top: 1px solid var(--color-border-default) !important;
   padding-top: 1em !important;
   margin-top: 3em;
 }
