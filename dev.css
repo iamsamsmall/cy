@@ -22,6 +22,28 @@ html {
 
 /* --- TYPOGRAPHY --- */
 
+:root {
+  --font-family-primary: reason-new, 'Work Sans', sans-serif !important;
+  --font-family-secondary: psfournier-std, 'Nanum Myeongjo', serif !important;
+  --font-size-1: 1.875rem !important;
+  --font-size-2: ;
+  --font-size-3: ;
+  --font-size-4: 0.75rem !important;
+  --s1: {
+    font-size: 2.55rem !important;
+    font-family: var(--font-family-secondary) !important;
+    font-weight: 200 !important;
+    font-size: 1.875rem !important;
+    line-height: 1.27 !important;
+    letter-spacing: -0.03em !important;
+  }
+}
+@media screen and (min-width: 50em) {
+  :root {
+    --font-size-1: 2.55rem !important;
+  }
+}
+
 /* Increase base font size for large screens */
 @media screen and (min-width: 50em) {
   html {
@@ -90,6 +112,9 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
     font-size: 2.55rem !important;
   }
+}
+h1.notion-heading .notion-semantic-string {
+  @apply --s1;
 }
 /* H2 */
 h2.notion-heading .notion-semantic-string {
