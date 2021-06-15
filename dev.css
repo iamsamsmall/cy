@@ -36,6 +36,7 @@ html {
     font-size: 1.875rem !important;
     line-height: 1.27 !important;
     letter-spacing: -0.03em !important;
+    color: pink !important;
   }
 }
 @media screen and (min-width: 50em) {
