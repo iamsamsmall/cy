@@ -77,7 +77,7 @@ strong {
 /* --- Heading styles --- */
 
 /* H1 */
-h1.notion-heading, .notion-page__properties .notion-property__text {
+h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-property__text {
   font-family: var(--font-family-secondary) !important;
   font-weight: 200 !important;
   font-size: 1.875rem !important;
@@ -92,14 +92,14 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
   }
 }
 /* H2 */
-h2.notion-heading {
+h2.notion-heading .notion-semantic-string {
   font-family: var(--font-family-secondary) !important;
   font-weight: 200 !important;
   letter-spacing: -0.01em !important;
 }
 
 /* H3 */
-h3.notion-heading {
+h3.notion-heading .notion-semantic-string {
   font-weight: 500 !important;
   margin-bottom: 0.25em !important;
 }
