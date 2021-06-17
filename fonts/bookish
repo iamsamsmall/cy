@@ -1,5 +1,0 @@
-/* Bookish */
-:root {
-  --font-family-body: reason-new, 'Work Sans', sans-serif !important;
-  --font-family-headings: psfournier-std, 'Nanum Myeongjo', serif !important;
-}
