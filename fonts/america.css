@@ -12,6 +12,11 @@ h1.notion-heading .notion-semantic-string, .notion-collection-card__property .no
   letter-spacing: 0 !important;
 }
 
+h1.notion-heading .notion-semantic-string {
+  line-height: 98% !important;
+  font-size: 6rem !important;
+}
+
 .notion-collection-card__property .notion-semantic-string {
   font-size: 1.65rem !important;
 }
