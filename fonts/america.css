@@ -2,8 +2,8 @@
 
 /* America */
 :root {
-  --font-family-body: 'Work Sans', sans-serif !important;
-  --font-family-headings: 'Big Shoulders Display', serif !important;
+  --font-family-body: supria-sans, 'Work Sans', sans-serif !important;
+  --font-family-headings: alternate-gothic-extra-cond, 'Big Shoulders Display', serif !important;
 }
 
 h1.notion-heading .notion-semantic-string, .notion-collection-card__property .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
@@ -14,8 +14,4 @@ h1.notion-heading .notion-semantic-string, .notion-collection-card__property .no
 
 .notion-collection-card__property .notion-semantic-string {
   font-size: 1.65rem !important;
-}
-
-.nav-link, h3.notion-heading .notion-semantic-string {
-  font-weight: 600 !important;
 }
