@@ -1,0 +1,5 @@
+/* America */
+:root {
+  --font-family-body: 'Work Sans', sans-serif !important;
+  --font-family-headings: 'Big Shoulders Display', serif !important;
+}
