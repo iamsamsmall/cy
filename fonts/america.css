@@ -3,7 +3,7 @@
 /* America */
 :root {
   --font-family-body: supria-sans, 'Work Sans', sans-serif !important;
-  --font-family-headings: alternate-gothic-extra-cond, 'Big Shoulders Display', serif !important;
+  --font-family-headings: obviously-condensed, 'Big Shoulders Display', serif !important;
 }
 
 h1.notion-heading .notion-semantic-string, .notion-collection-card__property .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
