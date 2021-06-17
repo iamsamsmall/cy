@@ -97,6 +97,11 @@ strong {
 
 /* --- Heading styles --- */
 
+/* Style reset */
+h1.notion-heading, h2.notion-heading, h3.notion-heading {
+  line-height: 100% !important;
+}
+
 /* H1 */
 h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-property__text {
   font-family: var(--font-family-headings) !important;
@@ -111,9 +116,6 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
     font-size: 2.55rem !important;
   }
-}
-h1.notion-heading .notion-semantic-string {
-  @apply --s1;
 }
 /* H2 */
 h2.notion-heading .notion-semantic-string {
