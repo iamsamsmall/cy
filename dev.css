@@ -23,19 +23,22 @@ html {
 :root {
   --font-family-body: reason-new, 'Work Sans', sans-serif !important;
   --font-family-headings: psfournier-std, 'Nanum Myeongjo', serif !important;
-  --font-size-1: 1.875rem !important;
+  
+ 
+  
+  /* Style 1 Mobile */
+  --font-s1-family: var(--font-family-headings) !important;
+  --font-s1-size-s: 1.875rem !important;
+  --font-s1-weight: 200 !important;
+  --font-s1-line-height: 1.27 !important;
+  --font-s1-letter-spacing: -0.03em !important;
+    
+   /* Style 1 Desktop */
+  --font-s1-size-l: 2.55rem !important;
+    
+  /* Style 2 */
   --font-size-2: ;
   --font-size-3: ;
-  --font-size-4: 0.75rem !important;
-  --s1: {
-    font-size: 2.55rem !important;
-    font-family: var(--font-family-headings) !important;
-    font-weight: 200 !important;
-    font-size: 1.875rem !important;
-    line-height: 1.27 !important;
-    letter-spacing: -0.03em !important;
-    color: pink !important;
-  }
 }
 @media screen and (min-width: 50em) {
   :root {
@@ -104,28 +107,26 @@ h1.notion-heading, h2.notion-heading, h3.notion-heading {
 
 /* H1 */
 h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-property__text {
-  font-family: var(--font-family-headings) !important;
-  font-weight: 200 !important;
-  font-size: 1.875rem !important;
-}
-h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
-  line-height: 1.27 !important;
-  letter-spacing: -0.03em !important;
+  font-family: var(--font-s1-family) !important;
+  font-weight: var(--font-s1-weight) !important;
+  font-size: var(--font-s1-size-s)  !important;
+  line-height: var(--font-s1-line-height) !important;
+  letter-spacing: var(--font-s1-letter-spacing) !important;
 }
 @media screen and (min-width: 50em) {
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
-    font-size: 2.55rem !important;
+    font-size: var(--font-s1-size-l)  !important;
   }
 }
 /* H2 */
-h2.notion-heading .notion-semantic-string {
+h2.notion-heading {
   font-family: var(--font-family-headings) !important;
   font-weight: 200 !important;
   letter-spacing: -0.01em !important;
 }
 
 /* H3 */
-h3.notion-heading .notion-semantic-string {
+h3.notion-heading {
   font-weight: 500 !important;
   margin-bottom: 0.25em !important;
 }
@@ -563,18 +564,17 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   margin: 0.5em 0 1em !important;
 }
 .notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
-  font-family: var(--font-family-headings) !important;
-  font-weight: 200 !important;
-  font-size: 1.875rem !important;
-  letter-spacing: -0.01em !important;
-  line-height: 1.25 !important;
+  font-family: var(--font-s1-family) !important;
+  font-weight: var(--font-s1-weight) !important;
+  font-size: var(--font-s1-size-s) !important;
+  letter-spacing: var(--font-s1-letter-spacing) !important;
+  line-height: var(--font-s1-line-height) !important;
   border-bottom: 1px solid transparent !important;
   transition: border-color .2s ease-in;
 }
 @media screen and (min-width: 32em) {
   .notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
-    font-size: 2.111rem !important;
-    line-height: 1.15 !important;
+    font-size: var(--font-s1-size-l) !important;
   }
 }
 
@@ -629,6 +629,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 /* Style of page title can be found with heading styles */
+
 /* Style body titles */
 [id*="writing-"] h2.notion-heading {
   font-family: var(--font-family-body) !important;
