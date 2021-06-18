@@ -133,7 +133,7 @@ h1.notion-heading, h2.notion-heading, h3.notion-heading {
 }
 
 /* H1 */
-h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-property__text {
+h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-property__text .notion-semantic-string {
   font-family: var(--font-s1-family) !important;
   font-weight: var(--font-s1-weight) !important;
   font-size: var(--font-s1-size-s)  !important;
