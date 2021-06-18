@@ -24,26 +24,37 @@ html {
   --font-family-body: reason-new, 'Work Sans', sans-serif !important;
   --font-family-headings: psfournier-std, 'Nanum Myeongjo', serif !important;
   
- 
-  
-  /* Style 1 Mobile */
+  /* Style 1 */
   --font-s1-family: var(--font-family-headings) !important;
-  --font-s1-size-s: 1.875rem !important;
   --font-s1-weight: 200 !important;
+  --font-s1-size-s: 1.875rem !important;
+  --font-s1-size-l: 2.55rem !important;
   --font-s1-line-height: 1.27 !important;
   --font-s1-letter-spacing: -0.03em !important;
-    
-   /* Style 1 Desktop */
-  --font-s1-size-l: 2.55rem !important;
-    
+  
   /* Style 2 */
-  --font-size-2: ;
-  --font-size-3: ;
-}
-@media screen and (min-width: 50em) {
-  :root {
-    --font-size-1: 2.55rem !important;
-  }
+  --font-s2-family: var(--font-family-headings) !important;
+  --font-s2-weight: 200 !important;
+  --font-s2-size-s: 1.875rem !important;
+  --font-s2-size-l: 2.11rem !important;
+  --font-s2-line-height: 1.15 !important;
+  --font-s2-letter-spacing: -0.015em !important;
+  
+  /* Style 3 */
+  --font-s3-family: var(--font-family-headings) !important;
+  --font-s3-weight: 200 !important;
+  --font-s3-size-s: 1.5rem !important;
+  --font-s3-size-l: ;
+  --font-s3-line-height: 1.3 !important;
+  --font-s3-letter-spacing: -0.015em !important;
+  
+  /* Style 4 */
+  --font-s4-family: var(--font-family-body) !important;
+  --font-s4-weight: 500 !important;
+  --font-s4-size-s: 1.875rem !important;
+  --font-s4-size-l: 1.25rem !important;
+  --font-s4-line-height: 1.3 !important;
+  --font-s4-letter-spacing: -0.01em !important;
 }
 
 /* Increase base font size for large screens */
@@ -98,9 +109,25 @@ strong {
   letter-spacing: -0.01em !important;
 }
 
+/* Paragraph spacing */
+.notion-text__content {
+  padding: 8px 0 !important;
+}
+
+
 /* --- Heading styles --- */
 
-/* Style reset */
+/* Remove padding from headings */
+.notion-heading {
+  padding: 0 !important;
+}
+
+/* Ensure opacity remains at 1 when a heading is a link */
+.notion-heading .notion-semantic-string .link {
+  opacity: 1 !important;
+}
+
+/* Reset line-height */
 h1.notion-heading, h2.notion-heading, h3.notion-heading {
   line-height: 100% !important;
 }
@@ -120,34 +147,21 @@ h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-prop
 }
 /* H2 */
 h2.notion-heading {
-  font-family: var(--font-family-headings) !important;
-  font-weight: 200 !important;
-  letter-spacing: -0.01em !important;
+  font-family: var(--font-s3-family) !important;
+  font-weight: var(--font-s3-weight) !important;
+  font-size: var(--font-s3-size-s) !important;
+  line-height: var(--font-s3-line-height) !important;
+  letter-spacing: var(--font-s3-letter-spacing) !important;
 }
 
 /* H3 */
 h3.notion-heading {
-  font-weight: 500 !important;
-  margin-bottom: 0.25em !important;
-}
-
-/* Remove padding */
-.notion-heading {
-  padding: 0 !important;
-}
-
-/* Adjust line height for H2 and H3 */
-.notion-heading .notion-semantic-string {
-  line-height: 1.3 !important;
-}
-
-/* Ensure opacity remains at 1 when a heading is a link */
-.notion-heading .notion-semantic-string .link {
-  opacity: 1 !important;
-}
-
-.notion-text__content {
-  padding: 8px 0 !important;
+  font-family: var(--font-s4-family) !important;
+  font-weight: var(--font-s4-weight) !important;
+  font-size: var(--font-s4-size-s) !important;
+  line-height: var(--font-s4-line-height) !important;
+  letter-spacing: var(--font-s4-letter-spacing) !important;
+  margin-bottom: 0.25rem !important;
 }
 
 /* --- NAVIGATION --- */
@@ -335,12 +349,12 @@ h3.notion-heading {
 .notion-collection-card__property .notion-semantic-string {
   display: block !important;
   margin: 0.6em 0 0.4em !important;
-  font-family: var(--font-family-headings) !important;
-  font-weight: 200 !important;
-  font-size: 1.5rem !important;
-  line-height: 1.3 !important;
-  letter-spacing: -0.01em !important;
   white-space: normal !important;
+  font-family: var(--font-s3-family) !important;
+  font-weight: var(--font-s3-weight) !important;
+  font-size: var(--font-s3-size-s)!important;
+  line-height: var(--font-s3-line-height) !important;
+  letter-spacing: var(--font-s3-letter-spacing)!important;
 }
 
 /* Add underline to title on hover of project card */
@@ -564,17 +578,17 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   margin: 0.5em 0 1em !important;
 }
 .notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
-  font-family: var(--font-s1-family) !important;
-  font-weight: var(--font-s1-weight) !important;
-  font-size: var(--font-s1-size-s) !important;
-  letter-spacing: var(--font-s1-letter-spacing) !important;
-  line-height: var(--font-s1-line-height) !important;
+  font-family: var(--font-s2-family) !important;
+  font-weight: var(--font-s2-weight) !important;
+  font-size: var(--font-s2-size-s) !important;
+  letter-spacing: var(--font-s2-letter-spacing) !important;
+  line-height: var(--font-s2-line-height) !important;
   border-bottom: 1px solid transparent !important;
   transition: border-color .2s ease-in;
 }
 @media screen and (min-width: 32em) {
   .notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
-    font-size: var(--font-s1-size-l) !important;
+    font-size: var(--font-s2-size-l) !important;
   }
 }
 
