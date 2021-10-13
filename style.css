@@ -455,7 +455,12 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Center aligns list on article listing page */
 [id*="writing"] .notion-collection-list {
-  margin: 0 auto;
+  margin: 0 auto !important;
+}
+
+/* Fix for homepage alignment */
+[id*="index"] [id*="writing"] .notion-collection-list {
+  margin: 0 !important;
 }
 
 /* Set spacing between articles */
