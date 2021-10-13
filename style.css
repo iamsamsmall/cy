@@ -361,10 +361,10 @@ h3.notion-heading .notion-semantic-string {
 }
 
 /* Make all but the default colour display as a lighter colour */
-.pill-default {
+.pill-default, .pill-gray {
   background: none !important;
 }
-.pill-gray, .pill-brown, .pill-orange, .pill-yellow, .pill-green, .pill-blue, .pill-purple, .pill-pink, .pill-red {
+.pill-brown, .pill-orange, .pill-yellow, .pill-green, .pill-blue, .pill-purple, .pill-pink, .pill-red {
   background: none !important;
   color: var(--color-text-gray) !important;
 }
