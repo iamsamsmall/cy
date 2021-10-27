@@ -272,7 +272,7 @@ h3.notion-heading .notion-semantic-string {
   height: auto !important;
   max-height: none !important;
 }
-.notion-collection-card__cover.large>div {
+.notion-collection-card__cover.large>span {
   position: relative !important;
 }
 .notion-collection-card__cover {
