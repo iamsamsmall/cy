@@ -564,7 +564,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   max-height: none !important;
   margin-right: 0 !important;
 }
-.notion-collection-list__item-property .notion-property__file a > div > span, .notion-collection-list__item-property .notion-property__file img {
+.notion-collection-list__item-property .notion-property__file span, .notion-collection-list__item-property .notion-property__file img {
   position: relative !important;
 }
 .notion-collection-list__item-property .notion-property__file img {
