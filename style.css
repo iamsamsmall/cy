@@ -324,6 +324,7 @@ h3.notion-heading .notion-semantic-string {
   background-size: 100% 1px !important;
   background-position: 0 95% !important;
   background-repeat: no-repeat !important;
+  text-shadow: 1px 0px var(--color-bg-default), -1px 0px var(--color-bg-default), 0px -1px var(--color-bg-default), 0px 1px var(--color-bg-default);
 }
 .notion-collection-card.gallery:hover .notion-collection-card__property .notion-semantic-string span {
   background-image: linear-gradient(var(--color-text-gray), var(--color-text-gray)) !important;
