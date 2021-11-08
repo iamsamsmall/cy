@@ -497,6 +497,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   background-size: 100% 1px !important;
   background-position: 0 95% !important;
   background-repeat: no-repeat !important;
+  text-shadow: 1px 0px var(--color-bg-default), -1px 0px var(--color-bg-default), 0px -1px var(--color-bg-default), 0px 1px var(--color-bg-default);
 }
 .notion-collection-list__item:hover .property-3b755650 .notion-semantic-string {
   background-image: linear-gradient(var(--color-text-gray), var(--color-text-gray)) !important;
