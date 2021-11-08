@@ -490,8 +490,15 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 .notion-collection-list__item:hover {
   background-color: transparent !important;
 }
+.notion-collection-list__item .property-3b755650 .notion-semantic-string {
+  text-decoration: none !important;
+  background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) !important;
+  background-size: 100% 1px !important;
+  background-position: 0 95% !important;
+  background-repeat: no-repeat !important;
+}
 .notion-collection-list__item:hover .property-3b755650 .notion-semantic-string {
-  border-bottom: 1px solid var(--color-text-gray) !important;
+  background-image: linear-gradient(var(--color-text-gray), var(--color-text-gray)) !important;
 }
 
 /* Restyle meta data of each article in the list */
