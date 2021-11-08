@@ -84,7 +84,7 @@ h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-prop
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 1.27 !important;
-  letter-spacing: -0.03em !important;
+  letter-spacing: -0.035em !important;
 }
 @media screen and (min-width: 50em) {
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
