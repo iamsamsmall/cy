@@ -288,6 +288,9 @@ h3.notion-heading .notion-semantic-string {
   object-position: initial !important;
   padding-bottom: 0  !important;
 }
+.notion-collection-card .notion-property__title {
+  display: none !important;
+}
 .notion-collection-card__content {
   padding-bottom: 0 !important;
   padding-left: 0 !important;
