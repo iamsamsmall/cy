@@ -616,7 +616,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
     margin-bottom: 40px !important;
   }
 }
-
+.notion-collection-list__item-content .notion-property__text {
+  max-width: none !important;
+}
 /* Style date */
 [id*="writing-"] .notion-property__date .notion-semantic-string .date {
   color: var(--color-text-gray) !important;
