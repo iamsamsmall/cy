@@ -504,7 +504,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   text-decoration: none !important;
   background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) !important;
   background-size: 100% 1px !important;
-  background-position: 0 95% !important;
+  background-position: 0 88% !important;
   background-repeat: no-repeat !important;
   text-shadow: 1px 0px var(--color-bg-default), -1px 0px var(--color-bg-default), 0px -1px var(--color-bg-default), 0px 1px var(--color-bg-default);
 }
