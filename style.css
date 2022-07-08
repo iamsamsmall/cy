@@ -11,7 +11,9 @@ html {
   --color-border-default: rgba(23,23,24,0.15) !important;
   --collection-card-cover-size-large: 210px !important;
   --font-family-primary: reason-new, 'Work Sans', sans-serif !important;
+  --font-family-primary-font: reason-new, 'Work Sans', sans-serif !important;
   --font-family-secondary: psfournier-std, 'Nanum Myeongjo', serif !important;
+  --font-family-secondary-font: psfournier-std, 'Nanum Myeongjo', serif !important;
 }
 @media screen and (min-width: 50em) {
   :root {
