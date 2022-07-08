@@ -53,7 +53,7 @@ strong {
   text-transform: uppercase !important;
   letter-spacing: 0.1em !important;
   padding: 0 !important;
-  display: none;
+  display: none !important;
 }
 .notion-header__content>div {
   margin-bottom: 0px !important;
