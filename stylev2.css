@@ -82,7 +82,7 @@ strong {
 h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-property__text {
   font-family: var(--font-family-secondary) !important;
   font-weight: 200 !important;
-  font-size: 1.875rem !important;
+  font-size: 2.5rem !important;
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 1.27 !important;
