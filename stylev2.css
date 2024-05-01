@@ -82,10 +82,10 @@ strong {
 h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-property__text {
   font-family: var(--font-family-secondary) !important;
   font-weight: 200 !important;
-  font-size: 2.5rem !important;
+  font-size: 3.4rem !important;
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
-  line-height: 1.27 !important;
+  line-height: 1.1 !important;
   letter-spacing: -0.035em !important;
 }
 @media screen and (min-width: 50em) {
