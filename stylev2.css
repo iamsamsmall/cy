@@ -314,6 +314,7 @@ h3.notion-heading .notion-semantic-string {
   margin: 0.6em 0 0.4em !important;
   font-family: var(--font-family-secondary) !important;
   font-weight: 400 !important;
+  font-style: italic;
   font-size: 1.5rem !important;
   line-height: 1.1 !important;
   letter-spacing: -0.01em !important;
@@ -352,7 +353,7 @@ h3.notion-heading .notion-semantic-string {
 
 /* Adjust pill styling */
 .notion-pill {
-  font-size: 1rem !important;
+  font-size: 0.85rem !important;
   border-radius: 0px !important;
   line-height: 24px !important;
   margin: 2px 0 !important;
@@ -360,6 +361,8 @@ h3.notion-heading .notion-semantic-string {
   display: inline !important;
   white-space: normal !important;
   text-overflow: initial !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.01em !important;
 }
 
 /* Adds comma before each item */
