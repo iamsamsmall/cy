@@ -27,7 +27,7 @@ html {
 /* Increase base font size for large screens */
 @media screen and (min-width: 50em) {
   html {
-    font-size: 18px !important;
+    font-size: 19px !important;
   }
 }
 
@@ -72,7 +72,7 @@ strong {
 
 /* Adjust line-height and letter-spacing for body copy */
 .notion-semantic-string {
-  line-height: 1.4 !important;
+  line-height: 1.5 !important;
   letter-spacing: -0.01em !important;
 }
 
