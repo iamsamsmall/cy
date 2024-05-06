@@ -50,7 +50,7 @@ strong {
 .notion-header__title {
   font-weight: 500 !important;
   font-size: 0.75rem !important;
-  line-height: 1.25 !important;
+  line-height: 1.1 !important;
   min-height: auto !important;
   text-transform: uppercase !important;
   letter-spacing: 0.1em !important;
@@ -72,7 +72,7 @@ strong {
 
 /* Adjust line-height and letter-spacing for body copy */
 .notion-semantic-string {
-  line-height: 1.7 !important;
+  line-height: 1.5 !important;
   letter-spacing: -0.01em !important;
 }
 
