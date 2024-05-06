@@ -83,6 +83,7 @@ h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-prop
   font-family: var(--font-family-secondary) !important;
   font-weight: 300 !important;
   font-size: 2.25rem !important;
+  max-width: 720px !important;
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 0.95 !important;
@@ -338,6 +339,7 @@ h3.notion-heading .notion-semantic-string {
 /* Increase spacing between project meta data */
 .notion-collection-card__property {
   margin: 3px 0 !important;
+  min-height: 19px !important;
 }
 /* Fix for hover state underline */
 .notion-collection-card__property .notion-semantic-string {
@@ -353,7 +355,7 @@ h3.notion-heading .notion-semantic-string {
 
 /* Adjust pill styling */
 .notion-pill {
-  font-size: 0.85rem !important;
+  font-size: 0.7rem !important;
   border-radius: 0px !important;
   line-height: 24px !important;
   margin: 2px 0 !important;
@@ -362,7 +364,7 @@ h3.notion-heading .notion-semantic-string {
   white-space: normal !important;
   text-overflow: initial !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.01em !important;
+  letter-spacing: 0.02em !important;
 }
 
 /* Adds comma before each item */
