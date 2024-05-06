@@ -34,12 +34,12 @@ html {
 body {
   font-family: var(--font-family-primary) !important;
 
-  /* Make the text nice and crisp */
+  /* Make the text nice and crisp 
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 
-  /* Improve kerning for good measure */
-  text-rendering: optimizeLegibility;
+  /* Improve kerning for good measure 
+  text-rendering: optimizeLegibility; */
 }
 
 strong {
