@@ -81,7 +81,7 @@ strong {
 /* H1 */
 h1.notion-heading .notion-semantic-string, .notion-page__properties .notion-property__text {
   font-family: var(--font-family-secondary) !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   font-size: 2.25rem !important;
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
@@ -96,13 +96,13 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
 /* H2 */
 h2.notion-heading .notion-semantic-string {
   font-family: var(--font-family-secondary) !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   letter-spacing: -0.01em !important;
 }
 
 /* H3 */
 h3.notion-heading .notion-semantic-string {
-  font-weight: 600 !important;
+  font-weight: 400 !important;
   margin-bottom: 0.25em !important;
 }
 
@@ -315,7 +315,6 @@ h3.notion-heading .notion-semantic-string {
   margin: 0.6em 0 0.4em !important;
   font-family: var(--font-family-secondary) !important;
   font-weight: 400 !important;
-  font-style: italic;
   font-size: 1.5rem !important;
   line-height: 1.1 !important;
   letter-spacing: -0.01em !important;
