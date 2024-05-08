@@ -1,1 +1,7 @@
-
+/* Plantin */
+:root {
+  --font-family-primary: eskapade, serif !important;
+  --primary-font: eskapade, serif !important;
+  --font-family-secondary: eskapade, serif !important;
+  --secondary-font: eskapade, serif !important;
+}
